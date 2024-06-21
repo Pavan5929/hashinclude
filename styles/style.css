@@ -139,8 +139,10 @@ p.desc{
      text-align: right !important;
      margin-left: 6rem !important;
      display: flex;
+     border-radius: 8px;
     background-color:  hsl(0, 0%, 13%);
      border:1px solid #f8da64;
+     transition: all .5s ease-in-out;
      color:#f8da64;
      
 
@@ -218,4 +220,53 @@ button.learn-more:hover{
     width: 279px;
     margin-left: 62px;
     margin-top: 47px;
+}
+
+.Trainingbutton{
+
+    background: #D4E1FF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #0b7077;
+    margin-bottom: 6px;
+}
+
+img.about{
+
+    height: 23rem;
+    margin-top: -3rem;
+
+}
+
+.line{
+      
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.about{
+    padding-top: 4rem;
+    background-color: hsl(0, 0%, 13%);
+    height: 28rem;
+}
+
+button.learn{
+    border: 1px solid #F8DA64;
+    padding: 5px 31px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #f8da63;
+    background-color: hsl(0, 0%, 13%);
+    transition: all .5s ease-in-out;
+}
+
+button.learn:hover{
+    background-color: #f8da63;
+    color:black;
 }
