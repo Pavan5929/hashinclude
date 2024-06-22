@@ -1,3 +1,11 @@
+body{
+    font-family: "Raleway", sans-serif !important;
+}
+
+.points p{
+    margin-top: 50px;
+}
+
 a{
     padding-left: 9rem !important;
 }
@@ -322,4 +330,56 @@ button.learn:hover{
     margin: 7rem;
     background-position: 126px 127px;
     background-repeat: no-repeat;
+}
+
+.minutes,.seconds{
+    font-size:24px ;
+    margin-left: 5rem;
+}
+.hours{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hours h2,.minutes h2,.seconds h2{
+    font-size: 85px;
+  
+}
+
+.button-apply button{
+    padding: 10px 37px 10px 37px !important;
+    margin-left: 3rem;
+}
+
+footer{
+
+    background: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
+    background-size: cover;
+    width: 107%;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin-left: -3rem;
+    height: 28rem;
+}
+
+footer img.hash{
+
+    vertical-align: middle;
+}
+
+img.img2.w-75 {
+    margin-left: -9rem;
+}
+
+.address-block {
+    margin-top: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.links{
+
+    margin-left: 1rem;
 }
