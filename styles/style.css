@@ -252,7 +252,7 @@ img.about{
 .about{
     padding-top: 4rem;
     background-color: hsl(0, 0%, 13%);
-    height: 28rem;
+    height: 38rem;
 }
 
 button.learn{
@@ -269,4 +269,57 @@ button.learn{
 button.learn:hover{
     background-color: #f8da63;
     color:black;
+}
+
+.value{
+
+    color:#f8da63;
+}
+
+.experience .number{
+
+    font-size: xxx-large;
+}
+
+.details{
+
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.student-box{
+    background: linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%);
+    padding: 2rem;
+    margin-left: 22px;
+    width: 31%;
+    margin-top: 5rem;
+}
+
+.student{
+    margin-top: 22px;
+}
+.review-para {
+    margin-left: -6rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.review-para-last{
+    margin-left: -6rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.offer{
+
+    background: url("https://hashinclude.info/time-bg.50c998895fad7be4.svg") ;
+    background-color: #624BFF;
+    border-radius: 15px;
+    color: #fff;
+    padding: 3%;
+    max-width: 85%;
+    height: 26rem;
+    margin: 7rem;
+    background-position: 126px 127px;
+    background-repeat: no-repeat;
 }
