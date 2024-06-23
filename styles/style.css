@@ -383,3 +383,59 @@ ul{
 
     margin-left: 1rem;
 }
+
+.line-aboutus{
+
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.heading-team{
+    margin-top: 3rem;
+}
+
+.line-about{
+    position: relative;
+    left: 69px;
+    top: -11px;
+}
+
+
+.about-why-para p{
+    color: #d9d9d9;
+font-weight: 100;
+margin-top: 10px;
+margin-bottom: 62px;
+
+}
+
+.bottom{
+
+    margin-top: 4rem;
+}
+
+.about-team {
+
+    position: relative;
+    top: -17rem;
+    left: -72px;
+
+}
+
+.about-team h1{
+
+    
+    font-size: 22px;
+    margin-bottom: 2px;
+
+}
+
+.about-team p{
+
+    text-align: center;
+    font-size: 13px;
+}
