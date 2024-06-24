@@ -76,6 +76,8 @@ body {
     
 }
 
+
+
 .container-3{
 
     margin-left: 10rem !important;
@@ -439,3 +441,124 @@ margin-bottom: 62px;
     text-align: center;
     font-size: 13px;
 }
+
+
+.about-teamk.text-white {
+    position: relative;
+    top: -17rem;
+    left: -46px;
+}
+
+.career{
+    
+    margin-top: 8rem;
+    background: url(https://hashinclude.info/carrer-page-bg.f90597aae995a987.svg);
+    height: 26rem;
+    text-align: center;
+    color: #fff;
+    padding: 6% 0;
+    background-size: 77rem;
+}
+
+h2.heading {
+    margin-top: 3rem;
+}
+
+.under-line{
+
+    display: inline-block;
+    height: 3px;
+    width: 64px;
+    background: #e3c75c;
+    margin-left: 13px;
+}
+
+.q-a{
+
+    color: #fff;
+    background: #212121;
+    padding: 20px;
+}
+
+.each-question-block{
+
+    display: flex;
+    margin-bottom: 15px;
+}
+
+p.name-icon{
+
+    background: #d2e6e4;
+    align-self: baseline;
+    color: #000;
+    padding: 8px 11px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+
+.question-box p{
+
+    
+    padding-top: 10px;
+}
+
+.answer p{
+    background: #000;
+    padding: 4px 10px;
+}
+
+input{
+    background: #212121 !important;
+
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+    width: 300px  !important;
+    padding-left: 0 !important;
+    color:white;
+    
+}
+
+select{
+    background: #212121 !important;
+    color:white;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+    width: 300px  !important;
+    padding-left: 0 !important;
+    
+}
+
+.container-f{
+
+    color:white;
+    background: #212121;
+    padding: 14px;
+    
+
+}
+
+.calender1 i {
+    position: absolute;
+    left:90rem;
+    top: 61rem;
+    padding-left: 4px;
+}
+
+.form-check button{
+
+    border: 1px solid #F7DA64;
+    color: #f7da64;
+    margin-top: 20px;
+    padding: 6px 59px;
+    border-radius: 58px;
+}
+
+/* input#year { 
+    background: white !important;
+    max-width: 25px;
+    padding-right: 2px;
+    position: relative;
+    left: 10rem;
+}*/
