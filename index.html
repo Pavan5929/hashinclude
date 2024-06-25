@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/hash-include-logo - 2.svg">
     <title>Hash Include</title>
 </head>
 <body>
@@ -135,7 +136,7 @@
                     <p class="desc">Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
                 
                     <button type="button" class="learn-more"  style="margin-top: 0rem;" >
-                        learn more
+                       <a href="frontend.html" class="ind1" > learn more</a>
                      </button>
             
                 </div>
@@ -145,7 +146,8 @@
                 <div class="inner-container text-white">
                     <p>UI/UX Designing</p>
                     <p class="desc">Dive into the world of user interface and user experience design, crafting visually stunning and intuitive digital experiences while mastering the principles of effective design and user interaction.</p>
-                    <button type="button" class="learn-more" style="margin-top: 1rem;">Learn More</button>
+                    <button type="button" class="learn-more" style="margin-top: 1rem;">
+                        <a href="uxui.html" class="ind"> learn more</a></button>
                 </div>
             </div>
 
@@ -153,7 +155,7 @@
                 <div class="inner-container text-white">
                     <p class="course-name">Testing</p>
                     <p class="desc">Gain expertise in testing methodologies and techniques to ensure the quality and reliability of software applications, mastering the skills necessary for thorough and effective testing processes.</p>
-                    <button type="button" class="learn-more" style="margin-top: 1rem;">Learn More</button>
+                    <button type="button" class="learn-more" style="margin-top: 1rem;"><a class="ind" href="testing.html"> learn more</a></button>
                 </div>
             </div>
 
@@ -161,7 +163,7 @@
                 <div class="inner-container text-white">
                     <p>Full-Stack Development</p>
                     <p class="desc">Become a versatile developer proficient in both front-end and back-end technologies, equipped to build robust and scalable web applications from start to finish.</p>
-                    <button type="button" class="learn-more" style="margin-top:1rem;">Learn More</button>
+                    <button type="button" class="learn-more" style="margin-top:1rem;"><a href="fullstack.html" class="ind"> learn more</a></button>
                 </div>
             </div>
 
@@ -288,7 +290,8 @@
                     <span class="mt-3">About us</span>
                     <p class="mt-4 h2">Crafting Careers in Technology</p>
                     <p class="mt-4">At Hash Include, we're dedicated to shaping the next generation of tech leaders. With a focus on practical skills and hands-on learning, our experienced instructors guide students through comprehensive courses designed to meet the demands of today's IT industry.                    </p>
-                   <button type="button" class="mt-4 learn  ">Learn More</button>
+                    <button type="button" class="learn-more" style="margin-top: 1rem;">
+                        <a href="fullstack.html" class="ind"> learn more</a></button>
                 </div>
 
             </div>
@@ -396,7 +399,114 @@
                                 <p ><img src="assets/blue-tick.svg" alt="tick">Online Accessible Certificates</p>
                             </div>
                         <div class="button-apply ">
-                            <button type="button" class="rounded-3 ">Apply Now</button>
+                            <button type="button" class="rounded-3 btn" data-bs-toggle="modal" data-bs-target="#Modal1" style="    background: #fff;
+                            color: #0b7077;
+                            border-radius: 9px;">Apply Now</button>
+                             
+                            <div class="modal fade"  id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                                    <div class="modal-dialog  modal-lg">
+                                      <div class="modal-content">
+                                  
+                                        <!-- Modal Header -->
+                                        <div class="modal-header ">
+                                          <h2 class="modal-title">Enroll Here</h2>
+                                          <button type="button" class="btn-close" class="btn-white-close" data-bs-dismiss="modal">
+                                          
+                                          </button>
+                                        </div>
+                                  
+                                        <!-- Modal body -->
+                                        
+                                        
+                                       <div class="modal-body">
+                                            <form action="/action_page.php">
+                                                <div class="row d-flex">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="First name">Full Name<span class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="first name" required placeholder="Enter Your Name" name="email">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="contact">Phone number<span class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="contact" required placeholder="Enter Your Contact Number" name="email">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="email">Email address<span class="text-danger">*</span></label>
+                                                        <input type="email" class="form-control"  id="email" required placeholder="Enter Your Email " name="email">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="sel1" class="form-label">Course Interested in</label>
+                                                        <select class="form-select" id="sel1" name="sellist1">
+                                                           <option>Select</option>
+                                                           <option>UI/UX designing</option>
+                                                           <option>Frontend development</option>
+                                                           <option>Fullstack development</option>
+                                                           <option>Testing (Manual+Automation)</option>
+                                                        </select>
+                                                           
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="sel1" class="form-label">Course Interested in</label>
+                                                        <select class="form-select" id="sel1" name="sellist1">
+                                                           <option>Select</option>
+                                                           <option>pursuing</option>
+                                                           <option>Bachelor's</option>
+                                                           <option>MCA</option>
+                                                           <option>Degree</option>
+                                                           <option>Diploma</option>
+
+<option>Others</option>
+                                                        </select>
+                                                           
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="sel1" class="form-label">Best time to reach out</label>
+                                                        <select class="form-select" id="sel1" name="sellist1">
+                                                           <option>9AM</option>
+                                                           <option>10Am</option>
+                                                           <option>11AM</option>
+                                                           <option>12AM</option>
+                                                           <option>1PM</option>
+                                                           <option>2PM</option>
+                                                           <option>3PM</option>
+                                                           <option>4PM</option>
+                                                           <option>5PM</option>
+                                                           <option>6PM</option>
+                                                           <option>7PM</option>
+                                                           <option>8PM</option>
+                                                           <option>9PM</option>
+                                                        </select>
+                                                           
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <label for="comment">Message<span class="text-danger">*</span></label>
+                                                        <textarea class="form-control" rows="2" style="background-color: #212121;" id="comment" name="text"required placeholder="your message here"></textarea>
+                                                    </div>
+                                                   
+                                                   
+                                                </div>
+                                                          
+                                            
+                                              </form>
+
+                                           
+                                        </div>
+                                  
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer text-center">
+                                            <button type="submit" class="btn ind-app btn-register text-center mt-2">Register</button>
+                                            <div class="w-100">
+                                                <span class="small-text">
+                                                    <span class="text-danger">*</span>
+                                                    indicates required fields
+                                                </span>
+                                            </div>
+                                            
+                                        </div>
+                                  
+                                      </div>
+                                    </div>
+                                  </div>
+
                         </div>
                         </div>
                         
