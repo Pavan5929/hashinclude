@@ -1,26 +1,127 @@
 body{
     font-family: "Raleway", sans-serif !important;
+    margin:0;
 }
 
 .points p{
     margin-top: 50px;
 }
 
-a{
-    padding-left: 9rem !important;
+
+
+.card-button {
+    border: 1px solid #F8DA64;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    color: #f8da64;
+    font-size: 15px;
+    padding: 5px 18px;
+    
 }
+
+button.btn.btn-submit {
+    border: 1px solid #F7DA64;
+    color: #f7da64;
+    margin-top: 20px;
+    padding: 6px 59px;
+    border-radius: 58px;
+}
+
+textarea#year {
+    background: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+
+input[type="month"]::-webkit-calendar-picker-indicator {
+    background-color: #fff;
+  }
+
+.learn-more{
+
+    text-align: right;
+    padding-right: 12px;
+    padding-bottom: 11px;
+}
+
+.card-button:hover {
+    border: 1px solid #F8DA64;
+    background-color:#F8DA64 ;
+    color:black;
+}
+
+.card-button a:hover{
+
+    color:black;
+}
+
+.card-button a{
+    text-decoration: none;
+    color: #f8da64;
+}
+
+.col-md-6.text-white.Training {
+    padding-left: 6rem;
+}
+
+.navbar-toggler-icon{
+
+    background-color: white;
+   
+}
+
+.navbar{
+    max-width: 82%;
+    margin: auto;
+    padding: 2.5% 0;
+    padding-right: 1rem;
+    font-size: 18px;
+
+}
+
+nav .navbar{
+
+    margin-top: 3px;
+}
+
 
 p#motivate {
     width: 14rem;
     padding: 16px 0px 16px 23px;
 }
 
+.container-3.text-center.m-5 {
+    max-width: 81%;
+}
+
 .inner-container img.img-fluid{
         
     height: 25rem;
-    margin-left: 12rem;
+    margin-left:6rem;
+    max-width: 100%;
+    height: 43rem;
+    position: relative;
+    bottom: 4rem;
 }
 
+p.elevate {
+    font-size: 64px;
+    color: #fff;
+}
+
+.why-we-description{
+
+    color: ivory;
+    font-weight: 100;
+    height: 123px;
+}
+
+.training{
+
+    padding-right: 3rem !important;
+}
 p#path {
     display: inline;
     width: 10rem;
@@ -38,8 +139,9 @@ ul li a{
 
 .container-2{
     padding: 4% 0 6%;
-    max-width: 68%;
+    max-width: 80%;
     margin: auto;
+
 }
 body {
     background-color: #161616 !important;
@@ -54,34 +156,42 @@ body {
 }
 
 .inner-container-2.centered-bottom {
-    position: absolute;
-    bottom: -91px;
-    left: 7%;
-    transform: translateX(-38%);
-    text-align: center;
+   position: relative;
 }
+
+.inner-container-2.centered-bottom img{
+
+    position: absolute;
+    left: 2rem;
+    transform: translate(-50%, -14%);
+    background: rgb(98, 75, 255);
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+    bottom: 1rem;
+}
+
 
 .border-line{
     border-top: hidden !important;
     border-right: hidden !important;
     border-top-left-radius: 0px !important;
-    height:32rem !important;
+    height:42rem !important;
   
     
 }
 
-.inner-container-2{
-    background: #624bff;
-    padding:25px
-    
-    
+.col-md-6.text-white.about {
+    max-width: 39rem;
+    padding-left: 6rem;
 }
-
-
 
 .container-3{
 
-    margin-left: 10rem !important;
+  
+    margin-left: 3rem !important;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
 }
 
 .list .courses p {
@@ -144,25 +254,7 @@ p.desc{
     padding-left: 20px;
 }
 
-.learn-more{
-    position: relative;
-    left: 5rem;
-     text-align: right !important;
-     margin-left: 6rem !important;
-     display: flex;
-     border-radius: 8px;
-    background-color:  hsl(0, 0%, 13%);
-     border:1px solid #f8da64;
-     transition: all .5s ease-in-out;
-     color:#f8da64;
-     
 
-}
-
-button.learn-more:hover{
-    background-color: #f8da64;
-    color:black;
-}
 
 .container-5{
 
@@ -263,53 +355,14 @@ img.about{
 .about{
     padding-top: 4rem;
     background-color: hsl(0, 0%, 13%);
-    height: 38rem;
-}
-
-button.learn-more{
-    border: 1px solid #F8DA64;
-    padding: 4px -21rem 19rem;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 8px;
-    color: #f8da63;
-    background-color: hsl(0, 0%, 13%);
-    transition: all .1s ease-in-out;
-    padding-right: 5rem;
-    margin-right: -16rem;
-}
-
-a.ind {
-    padding-left: 4rem !important;
-}
-
-button.learn-more {
-    position: relative;
-    left: -3rem;
-    right: 5rem;
-}
-
-.learn-more a{
-
-    text-decoration: none;
-    color: #f8da64;
+ 
 }
 
 
-
-button.learn,a.ind:hover{
-    background-color: #f8da63;
-    color:black;
-}
-a.ind1:hover
-{
-    background-color: #f8da63;
-    color:black;
+.container-number.d-flex.justify-content-evenly.text-white {
+    padding-bottom: 3rem;
 }
 
-a.ind1{
-    padding-left: 4rem !important;
-}
 .value{
 
     color:#f8da63;
@@ -449,13 +502,14 @@ margin-bottom: 62px;
     margin-top: 4rem;
 }
 
-.about-team {
 
-    position: relative;
-    top: -17rem;
-    left: -72px;
 
-}
+    .about-team {
+        position: relative;
+        top: -17rem;
+        left: -51px;
+    }
+
 
 .about-team h1{
 
@@ -625,6 +679,13 @@ textarea#comment {
     margin-right: 30%;
 }
 
+.ind-app:hover{
+    border: 1px solid #F7DA64;
+
+}
+
+
+
 .btn-white-close
 {
   color: white !important;
@@ -686,4 +747,83 @@ button.btn.redirected-btn a{
 .course-redirected-block{
 
     margin-bottom: 26px;
+}
+
+a.nav-link.text-black.footer-logo {
+    padding-left: 9rem;
+}
+
+.footer-index{
+
+    top: 3rem;
+    position: relative;
+    background: url(https://hashinclude.info/footer-bg.cc00989cacc2122a.svg);
+    background-size: cover;
+    width: 107%;
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    margin-left: -3rem;
+    height: 28rem;
+}
+
+p.about-content{
+
+        color: #d9d9d9;
+        font-weight: 100;
+        max-width: 80%;
+        line-height: 31px;
+}
+
+
+
+@media only screen and (max-width:570px)
+{
+
+    span.navbar-toggler-icon {
+        position: relative;
+        left: 58px;
+    }
+
+    p#motivate {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+
+    p.text-white.elevate.h1 {
+        font-size: 34px;
+    }
+
+    p#path {
+        font-size: 14px;
+    }
+
+    img.img-fluid.man {
+        position: relative;
+        top: -12rem;
+        left: -1rem;
+    }
+
+    .inner-container-2 img.img-round {
+        position: relative;
+        left: 50%;
+        top: -24rem;
+        width: 11rem;
+        padding: 18px;
+    }
+
+    .container-3.text-center {
+        position: relative;
+        left: -2rem;
+    }
+    .courses.text-white.d-flex.flex-wrap.flex-row.space-around.justify-content-center.align-items-center {
+        position: relative;
+        left: 64px;
+    }
+
+    .col-md-3.card1 {
+        position: relative;
+        bottom: 45rem;
+        width: 19rem;
+}
+
 }
