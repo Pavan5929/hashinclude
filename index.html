@@ -16,14 +16,14 @@
 <body>
         <header>
     <section class="border-line border border-white rounded-5">
-        <nav class="navbar navbar-expand-sm text-white">
+        <nav class="navbar navbar-expand-md text-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/hash-include-logo.svg" class="img-fluid w-75" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" controls="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
-                   
+                <div class="collapse topnav navbar-collapse justify-content-evenly" id="navbarNav">
+                            
                             <a class="nav-link" href="index.html" target="_self" >Home</a>
     
                     
@@ -66,133 +66,124 @@
 </header>
 
         <div class="list-of-courses text-center">
-           <h2 class="text-white display-5">popular courses</h2>
-           <img src="assets/popular-course-line.svg" alt="line">
+           <h2 class="text-white display-5 pop">popular courses</h2>
+           <img class="img-fluid" src="assets/popular-course-line.svg" alt="line">
            
         </div>
         
-       <div class="list">
-       <div class="courses text-white d-flex flex-wrap flex-row space-around justify-content-center align-items-center">
+        <div class="list">
+            <div class="courses text-white d-flex flex-wrap flex-row space-around justify-content-center align-items-center">
+              <p class="border active rounded" style="background-color: #624bff;">All Programs</p>
+              <p class="border rounded">Front-end Development</p>
+              <p class="border rounded">Fullstack development</p>
+              <p class="border rounded">Testing</p>
+              <p class="border rounded">UI/UX designing</p>
+            </div>
+          </div>
+
+          <div class="course-mobile-filters">
+            <select class="form-control form-select " id="course-form">
+                <option value="all">All Programs</option>
+                <option value="front">Front-end development</option>
+                <option value="full">FullStack development</option>
+                <option value="testing">Testing</option>
+                <option value="uiux">UI/UX designing</option>
+            </select>
+    </div>
           
-        <p class="border active rounded" style="background-color: #624bff;">All Programs</p>
-        <p class="border rounded">Front-end Development</p>
-        <p class="border rounded ">Fullstack development</p>
-        <p class="border rounded">Testing</p>
-        <p class="border rounded">UI/UX designing</p>
-       </div>
-       
-    </div>
 
-    <div class="number-of-joiners">                                                               
-        <div class="row m-5">
-            <div class="col-md-3">
-                <div class="inner-container">
-                    
-                <img src="assets/card-1.svg" alt="front-end" class="d-block">
-                <div class="icon d-flex ">
-                <img src="assets/student-card-icons.svg" alt="studenticons" >
-                <p> +70 students</p>
-     
-            </div>
-        </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="inner-container">
-                    
-                <img src="assets/card-2-v1.svg" alt="uiux" class="d-block uxui-photo">
-                <div class="icon d-flex uxui-count">
-                <img src="assets/student-card-icons.svg" alt="studenticons" >
-                <p> +60 students</p>
-     
-            </div>
-        </div>
-            </div>
-
-            
-            <div class="col-md-3">
-                <div class="inner-container">
-                    
-                <img src="assets/card-3-v1.svg" alt="testing" class="d-block testing-phto ">
-                <div class="icon d-flex testing-count ">
-                <img src="assets/student-card-icons.svg" alt="studenticons" >
-                <p> +100 students</p>
-     
-            </div>
-        </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="inner-container">
-                    
-                <img src="assets/card-4-v1.svg" alt="testing" class="d-block full-photo">
-                <div class="icon d-flex full-count ">
-                <img src="assets/student-card-icons.svg" alt="studenticons" >
-                <p> +40 students</p>
-     
-            </div>
-        </div>
-            </div> 
-
-           
-        </div>
-
+    <div class="container mt-5">
         <div class="row">
-
-            <div class="col-md-3 card card-para-front ">
-                <div class="inner-container w-76 card-content-bottom">
-                    <p class="text-white">Front-End development</p>
-                    <p class="desc">Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from conception to implementation.</p>
-                    <div class="learn-more text-right">
-                    <button class="btn card-button">
-                        <a href="frontend.html">Learn more</a>
-                    </button>
+          <div class="col-md-3 ">
+            <div class="courses-card-container">
+              <div class="each-card">
+                <img src="/assets/card-1.svg" alt="frontend-development" class=" w-100">
+              </div>
+              <div class="each-card-content">
+                <div class="each-card-enrolled rounded-5 bg-white text-dark d-flex justify-content-center">
+                  <img src="/assets/student-card-icons.svg" alt="student-card-icons" class="img-fluid ">
+                  <p class="no-of-students my-auto">+70students</p>
                 </div>
-                    
+                <div class="title-of-card text-white">
+                  <p class="title-of-domain">Front-End development</p>
+                  <p class="content-of-card">Create captivating user experiences with expertise in HTML, CSS,
+                    JavaScript, and Angular/React. Mastering the art of web design from conception to
+                    implementation</p>
                 </div>
+                <div>
+                  <a href="learn.html"> <button class="btn-button ">Learn More</button></a>
+                </div>
+              </div>
             </div>
-
-            <div class="col-md-3 card uiux">
-                <div class="inner-container text-white card-content-bottom">
-                    <p>UI/UX Designing</p>
-                    <p class="desc">Dive into the world of user interface and user experience design, crafting visually stunning and intuitive digital experiences while mastering the principles of effective design and user interaction.</p>
-                    <div class="learn-more text-right">
-                    <button class="btn card-button">
-                        <a href="uxui.html">Learn more</a>
-                    </button>
-                       </div>
-
+          </div>
+          <div class="col-md-3 ">
+            <div class="courses-card-container">
+              <div class="each-card">
+                <img src="/assets/card-2-v1.svg" alt="ui/ux-desining" class=" w-100">
+              </div>
+              <div class="each-card-content">
+                <div class="each-card-enrolled  rounded-5 bg-white text-dark d-flex justify-content-center">
+                  <img src="/assets/student-card-icons.svg" alt="student-card-icons" class="img-fluid ">
+                  <p class="no-of-students my-auto"> +60students</p>
                 </div>
-            </div>
-
-            <div class="col-md-3 card testing">
-                <div class="inner-container text-white card-content-bottom">
-                    <p class="course-name">Testing</p>
-                    <p class="desc">Gain expertise in testing methodologies and techniques to ensure the quality and reliability of software applications, mastering the skills necessary for thorough and effective testing processes.</p>
-                    <div class="learn-more text-right">
-                        <button class="btn card-button">
-                            <a href="testing.html">Learn more</a>
-                        </button>
-                           </div>
-                       
+                <div class="title-of-card text-white">
+                  <p class="title-of-domain">UI/UX-desining</p>
+                  <p class="content-of-card">Dive into the world of user interface and user experience design, crafting
+                    visually stunning and intuitive digital experiences while mastering the principles of effective
+                    design and user interaction.</p>
                 </div>
-            </div>
-
-            <div class="col-md-3 card w-21 fullstack">
-                <div class="inner-container text-white card-content-bottom ">
-                    <p>Full-Stack Development</p>
-                    <p class="desc">Become a versatile developer proficient in both front-end and back-end technologies, equipped to build robust and scalable web applications from start to finish.</p>
-                    <div class="learn-more text-right">
-                        <button class="btn card-button">
-                            <a href="fullstack.html">Learn more</a>
-                        </button>
-                           </div>
-                       
+                <div>
+                  <a href="learn2.html"><button class="btn-button ">Learn More</button></a>
                 </div>
+              </div>
             </div>
-
+          </div>
+          <div class="col-md-3 ">
+            <div class="courses-card-container">
+              <div class="each-card">
+                <img src="/assets/card-3-v1.svg" alt="testing" class=" w-100">
+              </div>
+              <div class="each-card-content">
+                <div class="each-card-enrolled rounded-5 text-dark bg-white d-flex justify-content-center">
+                  <img src="/assets/student-card-icons.svg" alt="student-card-icons" class="img-fluid">
+                  <p class="no-of-students my-auto"> +100students</p>
+                </div>
+                <div class="title-of-card text-white">
+                  <p class="title-of-domain">Testing</p>
+                  <p class="content-of-card">Gain expertise in testing methodologies and techniques to ensure the
+                    quality and reliability of software applications, mastering the skills necessary for thorough and
+                    effective testing processes.</p>
+                </div>
+                <div>
+                  <a href="learn3.html"><button class="btn-button">Learn More</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="courses-card-container">
+              <div class="each-card">
+                <img src="/assets/card-4-v1.svg" alt="full-stack-development" class=" w-100">
+              </div>
+              <div class="each-card-content">
+                <div class="each-card-enrolled rounded-5 bg-white text-dark d-flex justify-content-center">
+                  <img src="/assets/student-card-icons.svg" alt="student-card-icons" class="image-fluid icon-card">
+                  <p class="no-of-students my-auto"> +40students</p>
+                </div>
+                <div class="title-of-card text-white">
+                  <p class="title-of-domain">Full-stack development</p>
+                  <p class="content-of-card">Become a versatile developer proficient in both front-end and back-end
+                    technologies, equipped to build robust and scalable web applications from start to finish.</p>
+                </div>
+                <div>
+                    <a href="learn4.html"><button class="btn-button">Learn More</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     
     
     <div class="why-we text-center">
@@ -204,43 +195,43 @@
      <div class="why-us-container">
     
       <div class="row text-center why-row">
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
         
             <img src="assets/ai-img.svg" alt="AI">
             <p class="text-white">Workshops on AI</p>
             </div>
     
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/networking.svg" alt="networking">
             <p class="text-white">Linked-In Networking</p>
         </div>
     
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/resume.svg" alt="Resume">
             <p class="text-white">Resume Building</p>
         </div>
 
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/projects.svg" alt="Project">
             <p class="text-white">Real-Time Projects</p>
         </div>
       </div>
 
       <div class="row text-center">
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/idea.svg" alt="idea">
             <p class="text-white">Pitching Startup Ideas</p>
         </div>
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/instructor.svg" alt="instructor">
             <p class="text-white">Expert Instructor</p>
 
         </div>
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/learning.svg" alt="learning">
             <p class="text-white">Interactive Learning</p>
         </div>
-        <div class="col-md-3 box">
+        <div class="col-md-3 box whyus-each-card">
             <img src="assets/certificate (1).svg" alt="learning">
             <p class="text-white">Verified Certificate</p>
         </div>
@@ -363,7 +354,7 @@
                 <span class=" testimonial">Testimonial</span>
                 <p class="student h2">Student Testimonial</p>
             </div>
-
+<div class="container">
             <div class="row">
                 <div class="col-md-4 student-box border border-white rounded-4">
                     <div class="d-flex">
@@ -414,6 +405,7 @@
                 </div>
                 </div>
             </div>
+        </div>
             <div class="offer">
                 <div class="inner-container">
                     <div class="row">
@@ -447,19 +439,21 @@
                                        <div class="modal-body">
                                 
                                                 <div class="row d-flex">
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-3 input-content">
                                                         <label for="First name">Full Name<span class="text-danger">*</span></label>
+                                                    
                                                         <input type="text" class="form-control" id="firstname"  placeholder="Enter Your Name" name="email">
+                                                   
                                                     </div>
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-3 input-content">
                                                         <label for="contact">Phone number<span class="text-danger">*</span></label>
                                                         <input type="text" class="form-control" id="contact" required placeholder="Enter Your Contact Number" name="email">
                                                     </div>
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-3 input-content">
                                                         <label for="email">Email address<span class="text-danger">*</span></label>
                                                         <input type="email" class="form-control"  id="email" required placeholder="Enter Your Email " name="email">
                                                     </div>
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-">
                                                         <label for="sel1" class="form-label">Course Interested in</label>
                                                         <select class="form-select" id="sel1" name="sellist1">
                                                            <option value="0">Select</option>
@@ -470,7 +464,7 @@
                                                         </select>
                                                            
                                                     </div>
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-3 input-content">
                                                         <label for="sel1" class="form-label">Course Interested in</label>
                                                         <select class="form-select" id="sel1" name="sellist1">
                                                            <option value="0">Select</option>
@@ -484,7 +478,7 @@
                                                         </select>
                                                            
                                                     </div>
-                                                    <div class="col-md-6 mb-3">
+                                                    <div class="col-md-6 mb-3 input-content">
                                                         <label for="sel1" class="form-label">Best time to reach out</label>
                                                         <select class="form-select" id="sel1" name="sellist1">
                                                            <option  value="9">9AM</option>
@@ -541,15 +535,15 @@
                                     <div class="time d-flex p-4">
                                         <div class="hours text-center">
                                         <h2>1</h2>
-                                        <p>Hours</p>
+                                        <p class="time-block">Hours</p>
                                         </div>
                                         <div class="minutes text-center">
                                             <h2>3</h2>
-                                            <p>minute</p>
+                                            <p class="time-block">minute</p>
                                             </div>
                                             <div class="seconds text-center">
                                                 <h2>9</h2>
-                                                <p>seconds</p>
+                                                <p class="time-block">seconds</p>
                                                 </div>
                                     </div>
                                 </div>
@@ -597,7 +591,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex footer-lists">
                 <div class="detailsfooter ">
                 <ul class="courses">
                     <li class="text-black"> 
